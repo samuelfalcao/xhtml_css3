@@ -1,0 +1,42 @@
+#interface {
+    width: 900px;
+    margin: 0 auto;
+}
+#topo {
+    background-color: #C4302B;
+    color: #dddddd;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-family: arial, sans-serif arial;
+    font-size: 30px;
+}
+
+#conteudo {
+    background-color: #cecece;
+    width: 700px;
+    text-align: center;
+    float: right;
+}
+
+#lado_direito {
+    background: url("../pag_html/estrutura_html.jpg");
+    width: 200px;
+    margin: 0 auto;
+    float: left;
+    height: 356px;
+    text-align: center;
+    line-height: 356px;
+}
+
+#rodape {
+    background-color: darkkhaki;
+    text-align: center;
+    line-height: 20px;
+    clear: right;
+}
+
+p {
+    font-family: verdana, arial, sans-serif;
+    color: blue;
+}
