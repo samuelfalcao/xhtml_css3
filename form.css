@@ -1,0 +1,38 @@
+
+fieldset {
+    width: 500px;
+    border: 1px solid black;
+}
+
+fieldset legend {
+    font: bold 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+label {
+    width: 200px;
+    font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    display: block;
+   /* border: 1px solid black;*/
+    float: left;
+    margin: 10px;
+}
+
+input {
+    width: 200px;
+    display: block;
+}
+
+.gInput {
+    width: 400px;
+}
+
+.mInput {
+    width: 100px;
+}
+
+.pInput {
+    width: 50px;
+}
+
+

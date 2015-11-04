@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Trabalhando com Formulários</title>
+        <link type="text/css" rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <form action="" name="frmcadastro" method="post">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label>Nome:<input type="text"></label>
+                <label>Sobrenome:<input type="text"></label>
+                <label>Email:<input class="gInput" type="text"></label>
+                <label>RG:<input type="text"></label>
+                <label>CPF:<input type="text"></label>
+                <label>
+                    Sexo:
+                    <select name="sexo">
+                        <option value="" selected="selected"></option>
+                        <option value="M">Masculino</option>
+                        <option value="F">Feminino</option>
+                    </select>
+                </label>
+                <label>
+                    Estado Civil:
+                    <select name="estadocivil">
+                        <option value="" selected="selected"></option>
+                        <option value="S">Solteiro</option>
+                        <option value="C">Casado</option>
+                        <option value="D">Divorciado</option>
+                        <option value="V">Viúvo</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de Correspondência</legend>
+                <label class="gInput">Rua:<input class="gInput" type="text"></label>
+                <label>Número:<input class="pInput" type="text"></label>
+                <label>Complemento:<input type="text"></label>
+                <label>Bairro:<input type="text"></label>
+                <label>Cidade:<input type="text"></label>
+                <label class="mInput">CEP:<input class="mInput" type="text"></label>
+                <label>Estado:<input class="pInput" type="text"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Dados de Acesso</legend>
+                <label>Login:<input type="text"></label>
+                <label>Senha:<input type="password"></label>
+                <label>Confirmação:<input type="password"></label>
+            </fieldset>
+            <input type="submit" name="submit" value="Enviar">
+        </form>
+
+    </body>
+</html>
