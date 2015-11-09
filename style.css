@@ -121,3 +121,85 @@
     background: green;
     color: white;
 }
+
+/*   -----------  Estilo da tabela da página servico ---------------- */
+
+table.srvTabela {
+    width: 500px;
+    text-align: center;
+    margin: 90px 100px 50px;
+    height: 150px;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+table.srvTabela td {
+    border: 1px solid black;
+}
+table caption.srvDesc {
+    background: #454545;
+    color: white;
+    line-height: 25px;
+    padding-right: 5px;
+}
+
+/*   -----------  Estilo do formulário da página contato ---------------- */
+
+form#fContato {
+
+}
+
+fieldset#inf {
+    height: 300px;
+    margin-top: 10px;
+   /* padding-left: 90px;*/
+    border: 2px solid #cc6600;
+    font-family: tahoma, verdana, arial, sans-serif;
+    font-weight: bold;
+    color: #363636;
+}
+
+legend.lj {
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+input.dados {
+    border: 1px solid #cc6600;
+    width: 450px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+input#btEnviar {
+    width: 80px;
+    height: 25px;
+    margin-left: 310px;
+    margin-top: 3px;
+}
+
+label.lb {
+    display: block;
+    margin-left: 85px;
+    color: #606060;
+}
+
+label#st {
+    margin-left: 85px;
+    color: #606060;
+}
+
+fieldset#inf textarea{
+    border: 1px solid #cc6600;
+    width: 500px;
+    height: 150px;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 85px;
+}
+
+select#setor {
+    width: 90px;
+
+}

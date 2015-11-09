@@ -1,7 +1,8 @@
 
 fieldset {
-    width: 500px;
+    width: 550px;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
 
 fieldset legend {
@@ -10,21 +11,27 @@ fieldset legend {
 }
 
 label {
-    width: 200px;
+    width: 250px;
     font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
     display: block;
    /* border: 1px solid black;*/
     float: left;
     margin: 10px;
+    position: relative;
 }
 
 input {
-    width: 200px;
+    width: 250px;
     display: block;
 }
 
+input:focus {
+    border-bottom: 2px solid #0000FF;
+    background: khaki;
+}
+
 .gInput {
-    width: 400px;
+    width: 420px;
 }
 
 .mInput {
@@ -33,6 +40,16 @@ input {
 
 .pInput {
     width: 50px;
+}
+
+.btnSubmit {
+    width: 80px;
+    height: 25px;
+    background: #ba8c00;
+    color: white;
+    position: absolute;
+    padding-top: 5px;
+    margin-bottom: 10px;
 }
 
 

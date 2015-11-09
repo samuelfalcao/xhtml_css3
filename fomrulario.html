@@ -9,10 +9,10 @@
         <form action="" name="frmcadastro" method="post">
             <fieldset>
                 <legend>Dados pessoais</legend>
-                <label>Nome:<input type="text"></label>
+                <label>Nome:<input autofocus placeholder="Nome Completo" type="text"></label>
                 <label>Sobrenome:<input type="text"></label>
                 <label>Email:<input class="gInput" type="text"></label>
-                <label>RG:<input type="text"></label>
+                <label>RG:<input id="rg" type="text"></label>
                 <label>CPF:<input type="text"></label>
                 <label>
                     Sexo:
@@ -49,7 +49,7 @@
                 <label>Senha:<input type="password"></label>
                 <label>Confirmação:<input type="password"></label>
             </fieldset>
-            <input type="submit" name="submit" value="Enviar">
+            <input class="btnSubmit" type="submit" name="submit" value="Enviar">
         </form>
 
     </body>
